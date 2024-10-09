@@ -1,4 +1,4 @@
-package breakpoint;
+package operation;
 
 class CustomObject {
     private int value;
@@ -9,7 +9,7 @@ class CustomObject {
 
     @Override
     public String toString() {
-        return "breakpoint.CustomObject with value: " + value;
+        return "base.CustomObject with value: " + value;
     }
 
     public void incrementValue(int step) {
